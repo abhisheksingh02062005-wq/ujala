@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Bot data (never commit the database or pack image)
+artifacts/ujala-bot/bot_data.db
+artifacts/ujala-bot/ujala_pack.jpg
+
+# Node / pnpm
+node_modules/
+dist/
+.cache/
+
+# Replit
+.replit
+replit.nix
+.config/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
