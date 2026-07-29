@@ -249,5 +249,9 @@ def api_claim(cookies_dict, user_key, access_token, data_key):
 def is_already_used_error(result: dict) -> bool:
     """Check if the API response means the number was already used."""
     msg = str(result.get("message", "")).lower()
-    keywords = ["already", "registered", "exist", "used", "duplicate", "mobile already"]
+    keywords = [
+        "already", "registered", "exist", "used", "duplicate",
+        "mobile already", "exceeded", "participation", "limit",
+        "exceed", "max", "already participated"
+    ]
     return any(k in msg for k in keywords)
