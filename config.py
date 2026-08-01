@@ -19,7 +19,7 @@ PACK_IMAGE_PATH = os.path.join(BASE_DIR, "ujala_pack.jpg")
 DB_PATH = os.path.join(BASE_DIR, "bot_data.db")
 
 # Points config
-POINTS_PER_REFERRAL = 2   # points awarded to referrer per new user
+POINTS_PER_REFERRAL = 5   # points awarded to referrer per new user
 
 # Ujala API
 BASE_URL = "https://www.ujalahappiestonam.com"
